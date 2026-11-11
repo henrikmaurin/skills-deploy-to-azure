@@ -1,4 +1,4 @@
-name: Deploy to staging
+maurinname: Deploy to staging
 
 on:
   pull_request:
@@ -9,8 +9,8 @@ env:
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  DOCKER_IMAGE_NAME: <username>-azure-ttt
-  AZURE_WEBAPP_NAME: <username>-ttt-app
+  DOCKER_IMAGE_NAME: henrikmaurin-azure-ttt
+  AZURE_WEBAPP_NAME: henrikmaurin-ttt-app
   ###############################################
 
 jobs:
